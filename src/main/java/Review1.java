@@ -9,12 +9,12 @@ public class Review1 {
 		System.out.println( x % y );
 	}
 
-	public static void q3() { System.out.println("Hello" "Hello again");
+	public static void q3() { System.out.println("Hello" + "Hello again");
 	}
 
 	public static void q4() { 
-	boolean yes = true
-	System.out.println( boolean yes); 
+	boolean yes = true;
+	System.out.println(yes); 
 	}
 
 	public static void q5() { 
