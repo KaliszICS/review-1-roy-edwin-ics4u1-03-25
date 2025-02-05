@@ -5,23 +5,22 @@ public class Review1 {
 	public static void q2() { 
 		int x = 5;
 		int y = 9; 
-		System.out.println( x / y );
-		System.out.println( x % y );
+		System.out.println(x/y);
+		System.out.println(x%y);
 	}
 
-	public static void q3() { System.out.println("Hello" + "Hello again");
+	public static void q3() { System.out.println("Hello\nHello again");
 	}
 
 	public static void q4() { 
-	boolean yes = true;
+	boolean yes=true;
 	System.out.println(yes); 
 	}
 
 	public static void q5() { 
 		String ok = "Hello"; 
  		String no = "World";
-		System.out.println( ok ); 
-		System.out.println( no );
+		System.out.println(ok+" "+no);
 	}
 
 }
