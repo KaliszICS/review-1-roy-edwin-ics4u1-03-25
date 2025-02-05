@@ -6,8 +6,8 @@ public class Review1 {
 	public static void q2() { 
 		int x = 5;
 		int y = 9; 
-		System.out.println(x/y);
-		System.out.println(x%y);
+		System.out.println(y/x);
+		System.out.println(y%x);
 	}
 
 	public static void q3() { 
