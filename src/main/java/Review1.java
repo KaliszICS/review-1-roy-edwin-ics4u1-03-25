@@ -1,5 +1,6 @@
 public class Review1 {
-	public static void q1() { System.out.println("There once was a man from St. Ives.");
+	public static void q1() { 
+		System.out.println("There once was a man from St. Ives.");
 	}
 
 	public static void q2() { 
@@ -9,18 +10,19 @@ public class Review1 {
 		System.out.println(x%y);
 	}
 
-	public static void q3() { System.out.println("Hello\nHello again");
+	public static void q3() { 
+		System.out.println("Hello\nHello again");
 	}
 
 	public static void q4() { 
-	boolean yes=true;
-	System.out.println(yes); 
+		System.out.println(true); 
 	}
 
 	public static void q5() { 
-		String ok = "Hello"; 
- 		String no = "World";
-		System.out.println(ok+" "+no);
+		String greeting = "Hello"; 
+ 		String world = "World";
+		System.out.print(greeting+" ");
+		System.out.println(world); 
 	}
 
 }
